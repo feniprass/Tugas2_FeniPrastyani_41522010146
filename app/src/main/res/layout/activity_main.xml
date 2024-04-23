@@ -161,8 +161,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="460dp"
         android:backgroundTint="@color/white"
-        android:drawableLeft="@drawable/panahhh"
         android:onClick="next" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vec_arrow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"/>
 
 
 

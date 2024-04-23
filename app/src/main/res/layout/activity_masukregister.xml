@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".masukregister">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vec_prevbutton"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/btnprevregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnprevregis"
+        android:layout_marginTop="-14dp"
+        android:src="@drawable/logoregister"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logoregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teks_namalegkap"
+        android:layout_below="@id/logoregis"
+        android:id="@+id/namalengkapregis"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape_register"
+        android:layout_below="@id/namalengkapregis"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnnamaregis"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:src="@drawable/vec_orang"
+        android:layout_below="@id/namalengkapregis"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/email"
+        android:layout_below="@id/btnnamaregis"
+        android:id="@+id/teksemailregis" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape_register"
+        android:layout_below="@id/teksemailregis"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnemailregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vec_email"
+        android:layout_below="@id/teksemailregis"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teks_katasandi"
+        android:layout_below="@id/btnemailregis"
+        android:id="@+id/tekskatasandiregis"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape_register"
+        android:layout_below="@id/tekskatasandiregis"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnkatasandiregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vec_gembok"
+        android:layout_below="@id/tekskatasandiregis"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teks_konfirmasikatasandi"
+        android:layout_below="@id/btnkatasandiregis"
+        android:id="@+id/tekskonfirregis"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_shape_register"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tekskonfirregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vec_gembok"
+        android:layout_below="@id/tekskonfirregis"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_shape"
+        app:backgroundTint ="@color/biru"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/btnklikregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teks_registerputih"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"/>
+
+
+
+</RelativeLayout>

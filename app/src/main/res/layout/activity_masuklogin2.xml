@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".masuklogin">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vec_prevbutton"
+            android:id="@+id/prevbutton"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="40dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logologin"
+            android:id="@+id/loglayout"
+            android:layout_below="@id/prevbutton"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email"
+            android:id="@+id/teksemail"
+            android:layout_below="@id/loglayout"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnemail"
+            android:background="@drawable/button_shape_register"
+            android:width="350dp"
+            android:height="60dp"
+            android:layout_below="@id/teksemail"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vec_email"
+            android:layout_below="@id/teksemail"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/teks_katasandi"
+            android:id="@+id/tekskatasandi"
+            android:layout_below="@id/btnemail"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnkatasandi"
+            android:background="@drawable/button_shape_register"
+            android:width="350dp"
+            android:height="60dp"
+            android:layout_below="@id/tekskatasandi"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vec_gembok"
+            android:layout_below="@id/tekskatasandi"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:background="@drawable/button_shape"
+            app:backgroundTint="@color/biru"
+            android:id="@+id/btnklilklogin"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vec_mata"
+            android:layout_below="@id/tekskatasandi"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tekstombollogin"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="125dp"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+

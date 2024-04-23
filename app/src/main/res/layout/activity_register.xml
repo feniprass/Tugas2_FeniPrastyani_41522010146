@@ -31,58 +31,11 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/vec12"
+        android:src="@drawable/sepertibatik"
         android:id="@+id/img15"
         android:hint="Enter color code (#RRGGBB)"
         android:layout_alignParentBottom="true" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/vec17"
-        android:id="@+id/img16"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="25dp" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/vec16"
-        android:id="@+id/img17"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="70dp" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/vec13"
-        android:id="@+id/img18"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="45dp" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/vec15"
-        android:id="@+id/img19"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/vec14"
-        android:id="@+id/img20"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/vec18"
-        android:id="@+id/img21"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -92,13 +45,15 @@
         android:layout_centerVertical="true"
         android:layout_alignParentBottom="true" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/rectangle2login"
-        android:id="@+id/img22"
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp" />
+        android:onClick="login"
+        android:background="@drawable/button_shape"
+        app:backgroundTint="@color/biru"
+        android:layout_marginTop="260dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -106,15 +61,17 @@
         android:src="@drawable/tekslogin"
         android:id="@+id/tekslogin"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="280dp" />
+        android:layout_marginTop="290dp" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/recrtangle2reg"
-        android:id="@+id/img23"
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="340dp" />
+        android:onClick="register"
+        android:background="@drawable/button_shape_register"
+        android:layout_marginTop="340dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
