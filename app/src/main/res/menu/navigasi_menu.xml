@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigasi_profil"
+            android:icon="@drawable/icon_profil"
+            android:title="profil"/>
+
+        <item
+            android:id="@+id/navigasi_pengaturan"
+            android:icon="@drawable/icon_pengaturan"
+            android:title="pengaturan"/>
+
+        <item
+            android:id="@+id/navigasi_bookmark"
+            android:icon="@drawable/icon_bookmark"
+            android:title="bookmark"/>
+
+        <item
+            android:id="@+id/navigasi_notifikasi"
+            android:icon="@drawable/icon_notifikasi"
+            android:title="notifikasi"/>
+
+        <item
+            android:id="@+id/navigasi_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="logout"/>
+    </group>
+
+</menu>

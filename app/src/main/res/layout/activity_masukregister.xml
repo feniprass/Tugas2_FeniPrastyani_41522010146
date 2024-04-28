@@ -13,7 +13,8 @@
         android:src="@drawable/vec_prevbutton"
         android:layout_marginTop="55dp"
         android:layout_marginLeft="40dp"
-        android:id="@+id/btnprevregis"/>
+        android:id="@+id/btnprevregis"
+        android:onClick="@drawable/vec_prevbutton"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -31,12 +32,12 @@
         android:layout_below="@id/logoregis"
         android:id="@+id/namalengkapregis"/>
 
-    <Button
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:background="@drawable/button_shape_register"
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/namalengkapregis"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape_register"
         android:id="@+id/btnnamaregis"/>
 
     <ImageView
@@ -54,12 +55,12 @@
         android:layout_below="@id/btnnamaregis"
         android:id="@+id/teksemailregis" />
 
-    <Button
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:background="@drawable/button_shape_register"
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/teksemailregis"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape_register"
         android:id="@+id/btnemailregis"/>
 
     <ImageView
@@ -77,12 +78,13 @@
         android:layout_below="@id/btnemailregis"
         android:id="@+id/tekskatasandiregis"/>
 
-    <Button
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:background="@drawable/button_shape_register"
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/tekskatasandiregis"
         android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:background="@drawable/button_shape_register"
         android:id="@+id/btnkatasandiregis"/>
 
     <ImageView
@@ -96,16 +98,27 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@drawable/vec_mata"
+        android:layout_below="@id/tekskatasandiregis"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/teks_konfirmasikatasandi"
         android:layout_below="@id/btnkatasandiregis"
         android:id="@+id/tekskonfirregis"/>
 
-    <Button
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:background="@drawable/button_shape_register"
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tekskonfirregis"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/tekskonfirregis"/>
+        android:inputType="textPassword"
+        android:background="@drawable/button_shape_register"
+        android:id="@+id/btnkonfirregis"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -114,6 +127,15 @@
         android:layout_below="@id/tekskonfirregis"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vec_mata"
+        android:layout_below="@id/tekskonfirregis"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"/>
 
     <Button
         android:layout_width="350dp"

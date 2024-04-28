@@ -2,7 +2,6 @@ package com.example.tugas2login;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -30,22 +29,16 @@ public class RegisterActivity extends AppCompatActivity {
 
         masukkelogin = findViewById(R.id.btnlogin);
 
-        masukkelogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent masuk = new Intent(RegisterActivity.this, masuklogin.class);
-                startActivity(masuk);
-            }
+        masukkelogin.setOnClickListener(v -> {
+            Intent masuk = new Intent(RegisterActivity.this, masuklogin.class);
+            startActivity(masuk);
         });
 
         masukkeregis = findViewById(R.id.btnregis);
 
-        masukkeregis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent masukreg = new Intent(RegisterActivity.this, masukregister.class);
-                startActivity(masukreg);
-            }
+        masukkeregis.setOnClickListener(v -> {
+            Intent masukreg = new Intent(RegisterActivity.this, masukregister.class);
+            startActivity(masukreg);
         });
    }
 }

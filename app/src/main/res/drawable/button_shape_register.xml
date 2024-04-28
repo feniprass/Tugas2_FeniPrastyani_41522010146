@@ -10,4 +10,8 @@
         android:startColor="#FFFFFF"
         android:endColor="#000080"
         android:angle="270" />
+    <size
+        android:width="350dp"
+        android:height="60dp"/>
+"
 </shape>

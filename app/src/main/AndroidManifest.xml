@@ -13,14 +13,17 @@
         android:theme="@style/Theme.Tugas2login"
         tools:targetApi="31">
         <activity
-            android:name=".masukregister"
+            android:name=".tampilanawal"
             android:exported="false" />
+        <activity
+            android:name=".masukregister"
+            android:exported="true" />
         <activity
             android:name=".masuklogin"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
