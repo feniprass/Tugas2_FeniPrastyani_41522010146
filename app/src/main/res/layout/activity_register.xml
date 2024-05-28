@@ -43,7 +43,8 @@
         android:src="@drawable/aquabotolkecil"
         android:id="@+id/img_botolkecil"
         android:layout_centerVertical="true"
-        android:layout_alignParentBottom="true" />
+        android:layout_marginTop="450dp"
+        android:layout_alignParentBottom="true"/>
 
     <Button
         android:id="@+id/btnlogin"
@@ -53,7 +54,7 @@
         android:onClick="login"
         android:background="@drawable/button_shape"
         app:backgroundTint="@color/biru"
-        android:layout_marginTop="260dp"/>
+        android:layout_marginTop="240dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -61,7 +62,7 @@
         android:src="@drawable/tekslogin"
         android:id="@+id/tekslogin"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="290dp" />
+        android:layout_marginTop="270dp" />
 
 
     <Button
@@ -71,7 +72,7 @@
         android:layout_centerHorizontal="true"
         android:onClick="register"
         android:background="@drawable/button_shape_register"
-        android:layout_marginTop="340dp"/>
+        android:layout_marginTop="320dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -79,7 +80,7 @@
         android:src="@drawable/teksregister"
         android:id="@+id/img24"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="370dp" />
+        android:layout_marginTop="350dp" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -87,7 +88,7 @@
         android:src="@drawable/tekskebaikanalamkebaikanhidup"
         android:id="@+id/img24"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="390dp"
+        android:layout_marginTop="370dp"
         />
 
 

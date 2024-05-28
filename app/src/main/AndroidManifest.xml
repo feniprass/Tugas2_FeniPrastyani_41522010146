@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Tugas2login"
         tools:targetApi="31">
         <activity
+            android:name=".reedemvaganza"
+            android:exported="false" />
+        <activity
+            android:name=".berhasilscanktp"
+            android:exported="false" />
+        <activity
+            android:name=".scanktp"
+            android:exported="false" />
+        <activity
+            android:name=".scantutup4"
+            android:exported="false" />
+        <activity
+            android:name=".scantutup3"
+            android:exported="false" />
+        <activity
+            android:name=".scantutup2"
+            android:exported="false" />
+        <activity
+            android:name=".scantutup1"
+            android:exported="false" />
+        <activity
             android:name=".tampilanawal"
             android:exported="false" />
         <activity
